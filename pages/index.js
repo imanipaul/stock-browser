@@ -10,7 +10,7 @@ export default function Home({ articles }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-        Stocks Browser!
+        <h1>Stocks Browser!</h1>
         <ArticleList articles={articles} />
       </div>
     </div>
