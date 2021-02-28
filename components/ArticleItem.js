@@ -7,7 +7,10 @@ const ArticleItem = ({ article }) => {
       <p>{article.symbol}</p>
       <h3>{article.title}</h3>
       <h4>{article.text}</h4>
-      <>Read More &rarr;</>
+      <img src={article.image} />
+      <a href={article.url} target="_blank">
+        Read More &rarr;
+      </a>
     </div>
   );
 };
