@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/Link";
 
 const stock = ({ stock }) => {
   return (
@@ -6,7 +7,7 @@ const stock = ({ stock }) => {
       Stock!
       <h2>{stock.companyName}</h2>
       <p>{stock.description}</p>
-      {console.log(stock)}
+      <Link href="/">Go Home</Link>
     </div>
   );
 };
